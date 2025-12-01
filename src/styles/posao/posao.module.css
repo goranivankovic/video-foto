@@ -475,7 +475,7 @@ font-size: calc(var(--posao)*1.2);
         justify-content: space-between;
         font-size: calc(var(--navItemsXL)* 1.5);
 
-        padding: calc(var(--padd1em) *0.2);
+        padding: calc(var(--padd1em)*0.2);
 
 
 
@@ -513,6 +513,7 @@ font-size: calc(var(--posao)*1.2);
 
     .threeDiv div {
         margin-bottom: var(--padd1em);
+    
     }
 
 

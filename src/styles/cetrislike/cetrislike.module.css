@@ -371,13 +371,13 @@ margin-bottom: calc(var(--padd1em)*2);
 
  .imageBox a {
      width: 100%;
-     height: 35rem;
+     height: 31rem;
      background-color: transparent;
  }
 
  .imageBox a img {
      width: 100%;
-     height: 30rem;
+     height: 29rem;
  }
 
 
@@ -531,15 +531,14 @@ margin-bottom: calc(var(--padd1em)*2);
 
  .imageBox a {
      width: 100%;
-     height: 32rem;
+     height: 28rem;
      background-color: transparent;
  }
 
  .imageBox a img {
      width: 100%;
-     height: 27rem;
+     height: 26rem;
  }
-
     .items {
         width: 100%;
         display: flex;
