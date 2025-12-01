@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap');
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+   
+
+  font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+
+
+
+  
+
+
+
+
+}
+
+
+
+ ::-webkit-scrollbar {
+
+    display: none;
+    -ms-overflow-style: none; 
+     scrollbar-width: none;
+
+} 
+
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+
+
+.cursor-move {
+  cursor: move;
+
+}
+
+.cursor-grabbing {
+  cursor: context-menu;
+}
+
+.cursor-move{
+  cursor: move;
+}
+
+
+
+:root {
+
+--black: #000000;
+--white : #FFFFFF;
+--green : #01aa01;
+--grey : #a3a3a3;
+--blue:#23a2cc;
+--pink:#ff8fa1;
+
+  --radius : 3em;
+  --transition:500ms;
+  --padd1em : 1em;
+
+
+--navItems:1.28rem;
+--navItemsXL: 1.7rem;
+
+
+--posao:1rem;
+
+
+
+}
+
+
+@media(max-width:60rem) {
+
+
+    :root {
+
+
+      --navItems: 1.28rem;
+      --navItemsXL: 1.45rem;
+
+
+      --posao: 1rem;
+
+
+
+    }
+
+
+
+}
+
+
+@media(max-width:40rem) {
+
+:root {
+
+
+    --navItems: 1.28rem;
+    --navItemsXL: 1.7rem;
+
+
+    --posao: .95rem;
+
+
+
+  }
+
+}
+
+

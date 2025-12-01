@@ -1,0 +1,139 @@
+
+
+
+.main{
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    padding: var(--padd1em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    /* z-index: -1; */
+        position: sticky;
+        top: -20%;
+
+   
+}
+
+.firstDiv{
+
+
+
+    margin-top: calc(var(--padd1em)*2);
+
+    width: 100rem;
+
+
+    display: flex;
+    flex-direction: column;
+  
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+padding: calc(var(--padd1em));
+
+
+border-radius: var(--radius);
+    background-color: var(--white);
+    color: var(--black);
+
+
+
+
+
+}
+.firstDiv div{
+    padding: calc(var(--padd1em)*0.5);
+}
+
+.firstDivDiv1{
+width: 75%;
+font-size: calc(var(--navItemsXL)* 1.6);
+/* background-color: red; */
+
+}
+
+.firstDivDiv2 {
+   width: 85%;
+    color: var(--grey);
+    font-size: calc(var(--navItemsXL));
+   
+}
+
+
+.firstDiv div:nth-child(3) {
+width: 90%;
+
+margin-left: var(--padd1em);
+
+  border-bottom: .2em solid var(--grey);
+
+    padding: var(--padd1em);
+    margin-top: calc(var(--padd1em)*0.5);
+    margin-bottom: calc(var(--padd1em)*0.5);
+
+
+}
+
+.items{
+    width: 50rem;
+    
+    
+        display: flex;
+        flex-direction: column;
+    
+        align-self: flex-end;
+        justify-content: space-between;
+    
+       font-size: .8rem;
+        padding: calc(var(--padd1em));
+
+    
+    
+ color: var(--grey);
+}
+.items div:nth-child(1){
+    font-size: calc(var(--posao)*1.65);
+}
+
+.items div:nth-child(2) {
+    /* background-color: red; */
+    width: 95%;
+    padding: calc(var(--padd1em));
+    font-size: calc(var(--posao)*1.45);
+}
+
+
+.nevidljiviDiv {
+
+    padding: var(--padd1em);
+    position: absolute;
+    top: 0%;
+    width: 15rem;
+    height: 15rem;
+
+
+    z-index: 20;
+
+
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: var(--white);
+
+  
+
+}
+
+.nevidljiviDiv img{
+    width: 100%;
+    height: 100%;
+}

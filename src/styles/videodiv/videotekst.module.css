@@ -1,0 +1,73 @@
+.main {
+    width: 100%;
+  
+ 
+    padding: var(--padd1em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+background-color: var(--black);
+position: sticky;
+    top: 0%;
+
+}
+
+.firstDiv {
+
+
+
+    margin-top: calc(var(--padd1em)*2);
+
+    width: 100rem;
+
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: space-between;
+
+
+    padding: calc(var(--padd1em));
+
+
+    border-radius: var(--radius);
+    color: var(--white);
+
+
+}
+
+.secondDiv{
+    width:50rem;
+
+    display: flex;
+    flex-direction: column;
+  align-items: flex-start;
+
+ 
+    
+}
+.secondDiv div{
+    padding: var(--padd1em);
+}
+.secondDiv div:nth-child(1){
+   font-size: calc( var(--navItemsXL)*1.6 );
+   margin-left: -1.6rem;
+
+    color: var(--white);
+}
+
+.secondDiv div:nth-child(2){
+    font-size: var(--navItems);
+
+    color: var(--grey);
+}
+
+.secondDiv div:nth-child(3) {
+    font-size: var(--navItems);
+
+    color: var(--grey);
+}

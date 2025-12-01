@@ -1,0 +1,45 @@
+
+
+
+.main {
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    padding: var(--padd1em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+        user-select: none;
+            -webkit-user-select: none;
+        
+            -moz-user-select: none;
+        
+            -ms-user-select: none;
+
+position: relative;
+
+}
+
+
+.firstDiv{
+    
+    
+        width: 95%;
+    
+    
+        display: flex;
+    
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--navItemsXL)* 10);
+
+
+    
+        /* border: .1em solid red; */
+
+
+}
+
+

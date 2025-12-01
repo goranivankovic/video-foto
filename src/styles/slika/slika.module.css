@@ -1,0 +1,208 @@
+
+
+
+.main{
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* z-index: -1; */
+      position: sticky;
+      top: 0%;
+    
+
+   
+}
+
+
+.first{
+position: relative;
+
+    margin-top: var(--padd1em);
+  width: 90%;
+
+
+    color: var(--grey);
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(var(--posao));
+
+   padding: var(--padd1em);
+  
+
+   overflow: hidden;
+
+
+}
+
+.first img{
+
+    object-fit: cover;
+    border-radius: var(--radius);
+    width: 100%;
+  max-height: 80vh;;
+}
+
+
+
+.nevidljiviDiv {
+
+  padding:  var(--padd1em);
+  position: absolute;
+width: 10rem;
+
+
+z-index: 20;
+
+
+
+overflow: hidden;
+background-color: var(--green);
+color: var(--black);
+border-radius: var(--radius);
+display: flex;
+align-items: center;
+justify-content: center;
+
+font-size: var(--posao);
+
+}
+
+
+@media(max-width:60rem) {
+.first {
+    position: relative;
+
+    margin-top: var(--padd1em);
+    width: 95%;
+
+
+    color: var(--grey);
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(var(--posao));
+
+    padding: var(--padd1em);
+
+
+    overflow: hidden;
+
+
+  }
+
+  .first img {
+
+    object-fit: cover;
+    border-radius: var(--radius);
+    width: 100%;
+    height: auto;
+    
+  }
+
+
+
+  .nevidljiviDiv {
+
+    padding:calc( var(--padd1em)*.7 );
+    position: absolute;
+    width: 8rem;
+
+
+    z-index: 20;
+
+
+
+    overflow: hidden;
+    background-color: var(--green);
+    color: var(--black);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: calc(var(--posao)* .85);
+
+  }
+}
+
+
+
+
+
+@media(max-width:40rem) {
+  .first {
+    position: relative;
+
+    margin-top: var(--padd1em);
+    width: 98%;
+
+
+    color: var(--grey);
+
+
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    font-size: calc(var(--posao));
+
+    padding: var(--padd1em);
+
+
+    overflow: hidden;
+
+
+  }
+
+  .first img {
+
+    object-fit: cover;
+    border-radius: var(--radius);
+    width: 100%;
+    height: auto;
+
+  }
+
+
+
+  .nevidljiviDiv {
+
+    padding: calc( var(--padd1em)*.5 );
+    position: absolute;
+    width: 6rem;
+
+
+    z-index: 20;
+
+
+
+    overflow: hidden;
+    background-color: var(--green);
+    color: var(--black);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: calc( var(--posao)*0.65 );
+
+  }
+}
+
+
+
+
+
+
