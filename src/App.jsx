@@ -338,7 +338,7 @@ function App() {
       >
          <Nav />
          <Posao text1="PROSLAVE 1 ROĐENDAN " text2="KRŠTENJA" text3="" />
-        <Slika images = {dete}  text ="KRŠTENJA / 👶"/>
+        <Slika images = {dete}  text ="KRŠTENJA / 👶" />
          <VideoTekst />
          <OgromanTekst />
          <Slider />

@@ -56,6 +56,7 @@ function Foto() {
 
 
           className={styles.boxes}
+        
          animate={{y:["0%", "-600%"] }}
                 transition={ { repeat: Infinity, duration: 25, ease: "linear" }}
         >
