@@ -87,3 +87,130 @@ color: var(--white);
 }
 
 
+
+
+@media(max-width:60rem) {
+.firstDiv {
+        border-top: .1em solid var(--grey);
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 95%;
+
+        display: flex;
+
+
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--posao));
+
+
+        padding-top: calc(var(--padd1em)*3);
+
+    }
+
+    .firstDiv a {
+        color: var(--grey);
+        text-decoration: none;
+        font-size: calc(var(--navItemsXL)*1);
+        padding: calc(var(--padd1em)*0.5);
+
+    }
+
+
+
+    .secondDiv {
+
+        margin-top: calc(var(--padd1em)*2);
+        margin-bottom: calc(var(--padd1em)*3);
+        width: 95%;
+
+        display: flex;
+
+
+        align-items: center;
+        justify-content: space-between;
+        font-size: calc(var(--posao));
+
+
+        padding-top: calc(var(--padd1em)*3);
+    }
+
+    .secondDiv a {
+        color: var(--white);
+        text-decoration: none;
+        font-size: calc(var(--navItemsXL)*1);
+        padding: calc(var(--padd1em)*.3);
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:40rem) {
+    .firstDiv {
+        border-top: .1em solid var(--grey);
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 98%;
+
+        display: flex;
+
+
+        align-items: center;
+        justify-content: center;
+        font-size: calc(var(--posao));
+
+
+        padding-top: calc(var(--padd1em)*3);
+
+    }
+
+    .firstDiv a {
+        color: var(--grey);
+        text-decoration: none;
+        font-size: calc(var(--navItemsXL)*1);
+        padding: calc(var(--padd1em)*0.5);
+
+    }
+
+
+
+    .secondDiv {
+
+        margin-top: calc(var(--padd1em)*2);
+        margin-bottom: calc(var(--padd1em)*3);
+        width: 98%;
+
+        display: flex;
+
+
+        align-items: center;
+        justify-content: space-between;
+        font-size: calc(var(--posao));
+
+
+        padding-top: calc(var(--padd1em)*3);
+    }
+
+    .secondDiv a {
+        color: var(--white);
+        text-decoration: none;
+        font-size: calc(var(--navItemsXL)*1);
+        padding: calc(var(--padd1em)*.3);
+
+    }
+}
+
+

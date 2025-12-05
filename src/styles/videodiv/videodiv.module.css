@@ -47,3 +47,53 @@ position: sticky;
 
    }
 
+
+
+   @media(max-width:60rem) {
+
+.firstDiv {
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+
+    }
+
+   }
+
+
+
+
+
+
+
+
+
+
+   @media(max-width:40rem) {
+
+       .firstDiv {
+
+
+           margin-top: calc(var(--padd1em)*2);
+
+           width: 98%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+
+
+
+
+
+       }
+
+   }

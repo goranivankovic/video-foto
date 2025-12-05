@@ -37,6 +37,8 @@ position: sticky;
     border-radius: var(--radius);
     color: var(--white);
 
+ /* border: 2px solid red; */
+
 
 }
 
@@ -70,4 +72,178 @@ position: sticky;
     font-size: var(--navItems);
 
     color: var(--grey);
+}
+
+
+
+
+   @media(max-width:100rem) {
+.firstDiv {
+
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 90%;
+
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+        padding: calc(var(--padd1em));
+
+
+        border-radius: var(--radius);
+        color: var(--white);
+
+
+
+    }
+
+   }
+
+
+@media(max-width:60rem) {
+
+.firstDiv {
+
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 95%;
+
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+        padding: calc(var(--padd1em));
+
+
+        border-radius: var(--radius);
+        color: var(--white);
+
+
+
+
+    }
+
+    .secondDiv {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+
+    }
+
+    .secondDiv div {
+        padding: var(--padd1em);
+    }
+
+    .secondDiv div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)*1.2);
+        margin-left: -1.6rem;
+
+        color: var(--white);
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: var(--navItems);
+
+        color: var(--grey);
+    }
+
+    .secondDiv div:nth-child(3) {
+        font-size: var(--navItems);
+
+        color: var(--grey);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:40rem) {
+
+    .firstDiv {
+
+
+
+        margin-top: calc(var(--padd1em)*2);
+
+        width: 98%;
+
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+        padding: calc(var(--padd1em));
+
+
+        border-radius: var(--radius);
+        color: var(--white);
+
+
+
+
+    }
+
+    .secondDiv {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+
+
+    }
+
+    .secondDiv div {
+        padding: var(--padd1em);
+    }
+
+    .secondDiv div:nth-child(1) {
+        font-size: calc(var(--navItemsXL)*1);
+        margin-left: -1.6rem;
+
+        color: var(--white);
+    }
+
+    .secondDiv div:nth-child(2) {
+        font-size: var(--posao);
+
+        color: var(--grey);
+    }
+
+    .secondDiv div:nth-child(3) {
+        font-size: var(--posao);
+
+        color: var(--grey);
+    }
+
 }

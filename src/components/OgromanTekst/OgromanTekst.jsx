@@ -6,7 +6,7 @@ function OgromanTekst() {
   return (
     <div className={styles.main}>
 
-        <div className={styles.firstDiv}>FOTO / VIDEO</div>
+        <div className={styles.firstDiv}>FOTO <span>/</span>  VIDEO</div>
 
 
     </div>

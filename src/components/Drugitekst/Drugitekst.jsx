@@ -70,7 +70,7 @@ function Drugitekst() {
 
           className={`${styles.nevidljiviDiv}`}
        style={{
-            left: position.x +200,
+            left: position.x + 100,
             top: position.y - 220,
             opacity:[0,1],
             transition:5,

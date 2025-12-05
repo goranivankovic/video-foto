@@ -56,18 +56,18 @@ function App() {
           <div>
 
 
-         {/* <Nav />  */}
+         <Nav /> 
 
          <Posao  text1="FOKUS FOTOGRAFIJE" text2="STRAST" text3="DETALJI"/> 
          <Slika images = {slika2}  text ="FOTO / VIDEO" />
          <Prvitekst />
          <Cetrislike />
          <Komentari />
-      {/*    <Drugitekst />
+         <Drugitekst />
          <VideoDiv />
          <Slider />
          <OgromanTekst />
-         <Footer />     */}
+         <Footer />    
 
 
 
@@ -368,7 +368,7 @@ function App() {
       >
          <Nav />
          <Posao text1="PROSLAVE PUNOLESTVA " text2="18." text3="" />
-        <Slika images = {devojka}  text ="PUNOLESTVO / 🎉🎁"/>
+         <Slika images = {devojka}  text ="PUNOLESTVO / 🎉🎁"/>
          <VideoTekst />
          <OgromanTekst />
          <Slider />
