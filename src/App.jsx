@@ -283,8 +283,11 @@ function App() {
       >
          <Nav />
          <Posao text1="SVADBE PROSLAVE" text2="VESELJA" text3="" />
-        <Slika images = {slika5}  text ="SVADBA / 🎉"/>
+ <div  className="slike4">
+         <Slika images = {slika5}  text ="SVADBA / 🎉"/>
+ </div>
          <Prvitekst />
+         
          <OgromanTekst />
          <Slider />
          
@@ -310,7 +313,10 @@ function App() {
       >
          <Nav />
          <Posao text1="SVADBE PROSLAVE" text2="VERIDBE" text3="" />
-        <Slika images = {slika4}  text ="SVADBA / 🎉🎁"/>
+         <div  className="slike4">
+          <Slika images = {slika4}  text ="SVADBA / 🎉🎁"/>
+         </div>
+        
          <Prvitekst />
          <OgromanTekst />
          <Slider />
@@ -338,7 +344,11 @@ function App() {
       >
          <Nav />
          <Posao text1="PROSLAVE 1 ROĐENDAN " text2="KRŠTENJA" text3="" />
-        <Slika images = {dete}  text ="KRŠTENJA / 👶" />
+      <div  className="slike4">
+           <Slika images = {dete}  text ="KRŠTENJA / 👶" />
+        </div>
+      
+       
          <VideoTekst />
          <OgromanTekst />
          <Slider />
@@ -368,7 +378,9 @@ function App() {
       >
          <Nav />
          <Posao text1="PROSLAVE PUNOLESTVA " text2="18." text3="" />
+          <div  className="slike4">
          <Slika images = {devojka}  text ="PUNOLESTVO / 🎉🎁"/>
+         </div>
          <VideoTekst />
          <OgromanTekst />
          <Slider />

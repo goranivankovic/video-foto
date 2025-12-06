@@ -67,6 +67,20 @@ position: sticky;
 
     }
 
+
+ .video {
+     object-fit: cover;
+     width: 100%;
+    min-height: 29rem;
+     position: relative;
+     top: 0;
+     border-radius: var(--radius);
+
+     background-color: var(--black);
+
+ }
+
+
    }
 
 
@@ -95,5 +109,18 @@ position: sticky;
 
 
        }
+
+ .video {
+     object-fit: cover;
+     width: 100%;
+     min-height: 26rem;
+     position: relative;
+     top: 0;
+     border-radius: var(--radius);
+
+     background-color: var(--black);
+
+ }
+
 
    }

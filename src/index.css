@@ -82,6 +82,22 @@
 
 }
 
+.slike4 {
+  width: 100%;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    object-fit: cover;
+}
+
+.slike4 img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
 
 @media(max-width:60rem) {
 
@@ -98,6 +114,16 @@
 
 
     }
+.slike4{
+
+    max-height: 30rem;
+}
+
+.slike4 img{
+  width: 100%;
+    height: 100%;
+}
+
 
 
 
@@ -118,6 +144,14 @@
 --padd1em: .6em;
 
   }
+
+.slike4 {
+
+  max-height: 26rem;
+}
+
+
+
 
 }
 

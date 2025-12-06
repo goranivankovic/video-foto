@@ -233,7 +233,7 @@ color: var(--black);
     .boxes {
 
         width: 18rem;
-        height: 22rem;
+        height: 24rem;
      
 
 
@@ -248,7 +248,7 @@ color: var(--black);
 
     .boxes img {
         width: 18rem;
-        height: 22rem;
+        height: 24rem;
         padding-bottom: .5em;
     }
 
@@ -258,7 +258,7 @@ color: var(--black);
 
 
         width: 95%;
-        max-height: 25rem;
+        max-height: 26rem;
         display: flex;
 
         background-color: var(--grey);
@@ -332,7 +332,7 @@ color: var(--black);
     .boxes {
 
         width: 100%;
-        height: 19rem;
+        height: 27rem;
    
 
 
@@ -353,7 +353,7 @@ color: var(--black);
 
     .boxes img {
         width: 100%;
-       max-height: 60vh;
+       max-height: 26rem;
         padding-bottom: .5em;
     }
 
@@ -398,7 +398,7 @@ color: var(--black);
     .toogleDiv img {
 
         width: 100%;
-        height: 100%;
+    max-height: 26rem;
         object-fit: cover;
     }
 

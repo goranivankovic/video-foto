@@ -604,7 +604,7 @@ display: none;
 
 
            z-index: 90;
-           font-size: calc(var(--navItemsXL)*1)
+           font-size: calc(var(--navItemsXL)*1.15)
        }
 
        .fullNav div a {

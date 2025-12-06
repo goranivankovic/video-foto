@@ -16,7 +16,7 @@ import { Link ,useNavigate  } from 'react-router-dom';
 import { useState } from "react";
 
 
-import Slike from '../Slika/Slika'
+
 import Slika from '../Slika/Slika';
 
 function Cetrislike() {
@@ -39,13 +39,16 @@ function Cetrislike() {
     //   y: e.clientY - rect.top,
     // });
 // setVisible(true);
+
+
 setboja('#403e3eff')
 
   };
 
-  const handleMouseLeave = () => {
+  const handleMouseLeave = (e) => {
     setVisible(false);
    setboja('#000000')
+
 
    
   };
@@ -132,8 +135,8 @@ setboja('#01aa01')
 
 
           <div className={styles.imageBox}>
-          <Link  to='/posao/svadba2'>     
-         <Slika images = {slika1}  text ="SVADBA / 🎉🎁"/> </Link> 
+          <Link  to='/posao/svadba2' >     
+         <Slika  images = {slika1} text ="SVADBA / 🎉🎁"  /> </Link> 
 
             <div className={styles.items}>
                    <div>VENČANJA / VERIDBE</div>
